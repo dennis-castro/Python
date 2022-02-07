@@ -14,17 +14,16 @@ if 9 in lista:
     print(f'O numero 9 aparece {lista.count(9)}')
 else:
     print('O numero 9 não foi encontrado.')
+
 if 3 in lista:
     print(f'o numero 3 aparece na {lista.index(3)+1}* posição.')
 else:
     print('O numero 3 não foi encontrado.')
-    
-    
+print(f'Os valores PARES encontrados foram: ', end='')
 
-print(f'Os valores PARES encontrados foram: ',end='')
 for n in lista:
     if n % 2 == 0:
         par = n
-        print(par,end='. ')
+        print(par, end='. ')
 if not par:
     print('Não encontrei nenhum numero PAR.')
