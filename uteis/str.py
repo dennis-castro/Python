@@ -1,4 +1,3 @@
-
 def linha():
     return ('-'*40)
 
