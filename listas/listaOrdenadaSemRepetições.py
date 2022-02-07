@@ -1,5 +1,5 @@
 lista = []
-for c in range(1,6):
+for c in range(1, 6):
     while True:
         num = int(input(f'Digite o primeiro {c} valor: '))
         if num not in lista:
