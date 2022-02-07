@@ -19,8 +19,8 @@ if 3 in lista:
     print(f'o numero 3 aparece na {lista.index(3)+1}* posição.')
 else:
     print('O numero 3 não foi encontrado.')
-print(f'Os valores PARES encontrados foram: ', end='')
 
+print(f'Os valores PARES encontrados foram: ', end='')
 for n in lista:
     if n % 2 == 0:
         par = n
