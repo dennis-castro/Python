@@ -13,10 +13,10 @@ while True:
         except:
             print('\033[31mValor invalido tente novamente..\033[m')
 
-    res = str(input('Deseja adicionar outro numero? S/N:')).lower().split()[0]
+    res = str(input('Deseja adicionar outro numero? S/N:')).strip().lower()[0]
     while res not in 'sn':
         print('\033[31mValor invalido tente novamente..\033[m')
-        res = str(input('Deseja adicionar outro numero? S/N:')).lower().split()[0]
+        res = str(input('Deseja adicionar outro numero? S/N:')).strip().lower()[0]
     print('='*40)
     if res == 'n':
         print('FINALIZANDO...')
